@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="lexAnal.js"></script>
+	<title>lexRex</title>
+</head>
+<body>
+	<pre>
+		<textarea onblur="document.body.innerHTML+=JSON.stringify(lexicosanalysis(this.value)).replace(/\},/g, '}<br>')"></textarea>
+	</pre>
+</body>
+</html>
